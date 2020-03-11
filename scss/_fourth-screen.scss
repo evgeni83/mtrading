@@ -1,0 +1,11 @@
+.fourth {
+  background-color: #fefcfd;
+  padding: 150px 0;
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  .fourth {
+    padding: 100px 0 50px;
+  }
+}
