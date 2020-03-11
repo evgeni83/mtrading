@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  min-width: 320px;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.title {
+  margin: 0;
+  font-family: "Gotham Pro Light", sans-serif;
+  font-size: 80px;
+  font-weight: 100;
+  color: $title-color;
+  position: relative;
+  z-index: 1;
+
+  &--bold {
+    font-family: "Gotham Pro Bold", sans-serif;
+    font-weight: bold;
+  }
+
+  @media (max-width: 575px) {
+    font-size: 36px;
+  }
+}
+
+.text {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  color: $text-color;
+  position: relative;
+  z-index: 1;
+
+  &--white {
+    color: #fff;
+  }
+
+  @media (max-width: 575px) {
+    font-size: 16px;
+  }
+}
+
+.btn {
+  display: block;
+  border-radius: 100px;
+  padding: 15px 35px;
+  color: #fff;
+  background: $btn-bg;
+  box-shadow: 0 0 10px $btn-shadow;
+  align-self: flex-start;
+  position: relative;
+  z-index: 1;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 1199px) {
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 767px) {
+}
+
+@media (max-width: 480px) {
+}
+
+@media (max-width: 320px) {
+}
