@@ -1,7 +1,7 @@
 .first {
   position: relative;
   height: 100vh;
-  overflow-x: hidden;
+  overflow: hidden;
   background-image: url(../img/bg-1.jpg);
 
   &__nums {

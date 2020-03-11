@@ -32,6 +32,15 @@ body {
   }
 }
 
+.subtitle {
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 5.6px;
+  color: $subtitle-color;
+}
+
 .text {
   margin: 0;
   font-family: "Open Sans", sans-serif;
@@ -54,6 +63,8 @@ body {
   border-radius: 100px;
   padding: 15px 35px;
   color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
   background: $btn-bg;
   box-shadow: 0 0 10px $btn-shadow;
   align-self: flex-start;
